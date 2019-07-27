@@ -52,7 +52,7 @@ app.get('/help/*', (req,res) =>{
 app.get('/products', (req,res) =>{
     if(!req.query.search){
         return res.send({
-            error: 'Pleas provide search term'
+            error: 'Pleas provide search term ggg'
         })
     }
     res.send({
